@@ -78,7 +78,7 @@ while True:
                 elif color == GREEN:
                     pygame.draw.circle(screen, WHITE, (x+size_block//2, y+size_block//2), size_block//2-7, 5)
 
-    if (query-1)%2 == 0:   # x
+    if (query-1) % 2 == 0:   # x
         game_over = check_win(massive, "x")
     else:
         game_over = check_win(massive, "o")
